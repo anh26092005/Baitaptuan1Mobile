@@ -49,7 +49,7 @@ class ProfileScreen extends StatelessWidget {
             ),
             const SizedBox(height: 20),
             const Text(
-              "Phạm Thị Yến Nhi",
+              "Ngô Hoàng Anh",
               style: TextStyle(
                 fontSize: 24,
                 fontWeight: FontWeight.bold,
@@ -58,7 +58,7 @@ class ProfileScreen extends StatelessWidget {
             ),
             const SizedBox(height: 8),
             Text(
-              "Hải Phòng, Việt Nam",
+              "Khánh Hòa, Việt Nam",
               style: TextStyle(
                 fontSize: 16,
                 color: Colors.grey[700],
