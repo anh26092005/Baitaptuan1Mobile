@@ -97,9 +97,18 @@ class ImagePage extends StatelessWidget {
       appBar: AppBar(
         title: const Text("Images"),
         leading: IconButton(
-          icon: const Icon(Icons.arrow_back),
+          icon: const Icon(Icons.arrow_back_ios_new, color: Colors.lightBlue),
           onPressed: () => Navigator.pop(context),
         ),
+        backgroundColor: Colors.white,
+        centerTitle: true,
+        elevation: 0,
+        titleTextStyle: const TextStyle(
+          color: Colors.lightBlue,
+          fontWeight: FontWeight.bold,
+          fontSize: 18,
+        ),
+        iconTheme: const IconThemeData(color: Colors.lightBlue),
       ),
       body: ListView(
         padding: const EdgeInsets.all(16),

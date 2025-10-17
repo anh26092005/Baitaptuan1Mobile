@@ -17,9 +17,18 @@ class TextFieldPageState extends State<TextFieldPage> {
       appBar: AppBar(
         title: const Text("TextField"),
         leading: IconButton(
-          icon: const Icon(Icons.arrow_back),
+          icon: const Icon(Icons.arrow_back_ios_new, color: Colors.lightBlue),
           onPressed: () => Navigator.pop(context),
         ),
+        backgroundColor: Colors.white,
+        centerTitle: true,
+        elevation: 0,
+        titleTextStyle: const TextStyle(
+          color: Colors.lightBlue,
+          fontWeight: FontWeight.bold,
+          fontSize: 18,
+        ),
+        iconTheme: const IconThemeData(color: Colors.lightBlue),
       ),
       body: Padding(
         padding: const EdgeInsets.all(20),
@@ -62,11 +71,20 @@ class _PasswordFieldPageState extends State<PasswordFieldPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text("Password Field"),
+        title: const Text("PassField"),
         leading: IconButton(
-          icon: const Icon(Icons.arrow_back_ios_new),
+          icon: const Icon(Icons.arrow_back_ios_new, color: Colors.lightBlue),
           onPressed: () => Navigator.pop(context),
         ),
+        backgroundColor: Colors.white,
+        centerTitle: true,
+        elevation: 0,
+        titleTextStyle: const TextStyle(
+          color: Colors.lightBlue,
+          fontWeight: FontWeight.bold,
+          fontSize: 18,
+        ),
+        iconTheme: const IconThemeData(color: Colors.lightBlue),
       ),
       body: Padding(
         padding: const EdgeInsets.all(20),
